@@ -27,7 +27,7 @@ class MemberServiceIntegrationTest {
     void 회원가입() {
         //given 이런 상황이 주어져서 (뭔가가 주어졌는데)
         Member member = new Member();
-        member.setName("spring");
+        member.setName("springBack");
 
         //when 이거를 실행했을 때
         Long saveId = memberService.join(member);
